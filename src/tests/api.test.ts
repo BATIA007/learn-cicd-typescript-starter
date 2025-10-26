@@ -16,7 +16,7 @@ describe("auth test", () => {
 
   test("return api key", () => {
     expect(getAPIKey({ authorization: "ApiKey someKey" })).toBe(
-      "someKeys"
+      "someKey"
     );
   });
 });
